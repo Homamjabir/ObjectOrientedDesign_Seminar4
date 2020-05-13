@@ -24,7 +24,6 @@ public class CashRegister
     /**
      * Constructor for the class CashRegister. Creates an instance with necessary initializations
      */
-
     public CashRegister()
     {
         inventory = new Inventory();
