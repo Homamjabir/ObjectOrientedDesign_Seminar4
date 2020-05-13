@@ -28,6 +28,8 @@ public class Inventory
 
     /**
      * Checks if itemIdentifier in argument matches any identifier in the inventory
+     * Throws DatabaseFailureException if itemIdentifer is equal to 0 and
+     * InvalidIdentifierException if the identifier does not exist
      * @param itemIdentifier Identifier of item to check
      * @return True if identifier is found in inventory, false otherwise
      */

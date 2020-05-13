@@ -37,12 +37,12 @@ class Main
             }
             catch (DatabaseFailureException ex)
             {
-                System.out.println("USER MESSAGE: A database error occured, please contact the administrator.");
+                System.out.println("USER MESSAGE: A database error occured");
                 newItem = null;
             }
             catch (Exception ex)
             {
-                System.out.println("USER MESSAGE: Item not found, did you enter the correct identifier?");
+                System.out.println("USER MESSAGE: Item not found");
                 newItem = null;
             }
 

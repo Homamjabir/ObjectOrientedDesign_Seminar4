@@ -55,7 +55,7 @@ public class ControllerTest
         catch (Exception ex)
         {
             fail("Item with identifier " + itemIdentifier + " not found.");
-    }
+        }
         Assert.assertNotEquals(expectedItemDTO, itemDTO);
     }
 
